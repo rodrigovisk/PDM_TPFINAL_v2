@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP_Finalv2.MainPage">
+
+    <StackLayout Padding="20">
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+            <Button x:Name="btnCRUD" WidthRequest="300" HorizontalOptions="FillAndExpand"  Text="CRUD" Clicked="BtnCRUD_Clicked"/>
+            <Button x:Name="btnGeo" WidthRequest="300" Text="Geolocalização" Clicked="BtnGeo_Clicked"/>
+            <Button x:Name="btnCreditos" WidthRequest="300" Text="Creditos" Clicked="BtnCreditos_Clicked"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
